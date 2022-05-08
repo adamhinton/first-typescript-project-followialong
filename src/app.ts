@@ -8,5 +8,7 @@ class ProjectInput {
       //now for typecasting:
     )! as HTMLTemplateElement;
     this.hostElement = document.getElementById("app")! as HTMLDivElement;
+
+    const importedNode = document.importNode(this.templateElement.content);
   }
 }
