@@ -7,7 +7,6 @@ class ProjectInput {
       "project-input"
       //now for typecasting:
     )! as HTMLTemplateElement;
-
     this.hostElement = document.getElementById("app")! as HTMLDivElement;
   }
 }
