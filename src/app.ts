@@ -1,6 +1,7 @@
 class ProjectInput {
   templateElement: HTMLTemplateElement;
   hostElement: HTMLDivElement;
+  element: HTMLFormElement;
 
   constructor() {
     this.templateElement = document.getElementById(
@@ -14,5 +15,12 @@ class ProjectInput {
       this.templateElement.content,
       true
     );
+    this.element = importedNode.firstElementChild as HTMLFormElement;
+    this.attach();
+  }
+
+  private attach() {
+    //takes a description of where to insert the element, and what to insert there
+    this.hostElement.insertAdjacentElement("afterbegin", this.element);
   }
 }
