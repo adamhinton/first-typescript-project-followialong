@@ -2,7 +2,8 @@ class ProjectInput {
   templateElement: HTMLTemplateElement;
 
   constructor() {
-    this.templateElement = document.getElementById("project-input")!;
-    // this.hostElement=
+    this.templateElement = document.getElementById(
+      "project-input"
+    )! as HTMLTemplateElement;
   }
 }
