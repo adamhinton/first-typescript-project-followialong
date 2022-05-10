@@ -37,6 +37,7 @@ class ProjectInput {
 
   private submitHandler(event: Event) {
     event.preventDefault();
+    console.log(this.titleInputElement.value);
   }
 
   private configure() {
