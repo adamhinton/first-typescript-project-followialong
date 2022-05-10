@@ -1,4 +1,9 @@
 //autobind decorator
+function autobind(
+  target: any,
+  methodName: string,
+  descriptor: PropertyDescriptor
+) {}
 
 //ProjectInput class
 class ProjectInput {
