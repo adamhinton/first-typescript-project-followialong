@@ -1,3 +1,6 @@
+//autobind decorator
+
+//ProjectInput class
 class ProjectInput {
   templateElement: HTMLTemplateElement;
   hostElement: HTMLDivElement;
