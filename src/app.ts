@@ -24,8 +24,12 @@ class ProjectInput {
     this.titleInputElement = this.element.querySelector(
       "#title"
     ) as HTMLInputElement;
-    this.descriptionInputElement = this.element.querySelector("#description");
-    this.peopleInputElement = this.element.querySelector("#people");
+    this.descriptionInputElement = this.element.querySelector(
+      "#description"
+    ) as HTMLInputElement;
+    this.peopleInputElement = this.element.querySelector(
+      "#people"
+    ) as HTMLInputElement;
 
     this.attach();
   }
