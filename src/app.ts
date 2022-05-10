@@ -15,6 +15,7 @@ class ProjectInput {
       this.templateElement.content,
       true
     );
+
     this.element = importedNode.firstElementChild as HTMLFormElement;
     this.element.id = "user-input";
     this.attach();
